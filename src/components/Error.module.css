@@ -1,0 +1,13 @@
+.aviso {
+    background-color: rgb(252, 123, 37);
+    padding: 2rem;
+}
+
+.aviso h1 {
+    color: rgb(255, 255, 255);
+}
+
+.aviso p {
+    color: rgb(255, 255, 255);
+}
+

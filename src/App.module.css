@@ -1,0 +1,22 @@
+body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgba(255, 166, 0, 0);        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #83dd4f00;    
+    border-radius: 50px;       
+    border: 3px solid #83dd4f00;
+  }
+.app {
+    max-width: 500px; 
+    margin: 0 auto;
+}
+
+.app h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}

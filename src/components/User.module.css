@@ -1,0 +1,81 @@
+*{
+    overflow-x: hidden;
+}
+.user {
+    background-color: #1d1d1d;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.user img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 2px solid green;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.location svg {
+    fill: #e21c1c;
+    font-size: 1.5rem;
+}
+
+.location span {
+    color: #43cf3e;
+    font-weight: bold;
+}
+.status {
+    display: flex;
+}
+
+.status div {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.status div:first-child {
+    border-right: 1px solid #43cf3e;
+}
+
+.status .number {
+    padding: 0.2rem 0.4rem;
+}
+
+.user a {
+    text-align: center;
+    background-color: #43cf3e;
+    padding: 1rem;
+    border-radius: 5px;
+    opacity: .8;
+    transition: .3s;
+}
+
+.user a:hover {
+    opacity: 1;
+}
+
+.boll {
+
+    padding: 10px 10px;
+    position: absolute;
+    background-color: green;
+    top: 73%;
+    border-radius: 50%;
+    left: 53%;
+}
+
+.color1 {
+    color: #43cf3e;
+}
